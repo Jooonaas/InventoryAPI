@@ -1,0 +1,16 @@
+{
+  "name": "inventory-api",
+  "version": "1.0.0",
+  "description": "simple inventory api for storage an inventory of a rage:mp server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "inventory",
+    "rage:mp"
+  ],
+  "author": "Jonas Lehwald",
+  "license": "ISC"
+}

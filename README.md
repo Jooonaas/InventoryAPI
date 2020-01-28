@@ -9,11 +9,10 @@ Installation:
 2. Nur wenn 1 der Fall war: Jegliche Werte Eintragen
 
 3. npm install --save https://github.com/Jooonaas/InventoryAPI.git#master
-4. API ist insalliert!
 
 Beispiel:
 
-import 'inventory-api' #Zwingend erforderlich, um die API zu importieren
+import 'inventory-api'                      #Zwingend erforderlich, um die API zu importieren
 
 let inventory: Inventory = new Inventory('beispiel', 'player')
 

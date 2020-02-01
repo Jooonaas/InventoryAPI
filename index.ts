@@ -179,4 +179,12 @@
 
         return rawItems[item_name]
     }
+
+    /**
+     * Gibt alle Items aus dem Inventar zurück
+     * 
+     */
+    getItems () {
+        return JSON.parse(this.data)
+    }
  }

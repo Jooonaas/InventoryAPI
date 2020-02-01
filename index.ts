@@ -131,7 +131,7 @@
         if (rawItems[item_name] == null) {
             rawItems[item_name] = item_data
         } else {
-            rawItems[item_name].amount = rawItems[item_name].amount + item_data.amount
+            rawItems[item_name].amount += item_data.amount
         }
         this.data = JSON.stringify(rawItems)
     }
@@ -149,7 +149,7 @@
         if (rawItems[item_name] == null) {
             rawItems[item_name] = 0
         } else {
-            rawItems[item_name].amount = rawItems[item_name].amount - item_amount
+            rawItems[item_name].amount -= item_amount
         }
         this.data = JSON.stringify(rawItems)
     }
